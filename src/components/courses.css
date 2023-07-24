@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, 'sans-serif';
+}
+
+.courses{
+    padding: 3em;
+}
+
+.courses h1{
+    color: #FEB545;
+    margin-bottom: 1em;
+}
+
+.courses .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 2em;
+}
+
+.courses .container .box{
+    border: 2px solid #FEB545;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all 0.4s ease;
+}
+
+.courses .container .box:hover{
+    transform: scale(1.05);
+}

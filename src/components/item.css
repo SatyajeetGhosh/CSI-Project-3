@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, 'sans-serif';
+}
+
+.card-body .title{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.card-body .educator{
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card-body .desc{
+    margin-bottom: 30px;
+}
+
+.card-body .course-btn{
+    padding: 10px 20px;
+    font-weight: 500;
+    color: #FEB545;
+    border: 2px solid #FEB545;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.card-body .course-btn:hover{
+    color: white;
+    background-color: #FEB545;
+}

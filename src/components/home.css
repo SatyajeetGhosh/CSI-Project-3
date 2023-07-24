@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-section{
+    padding: 3em;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-section .home-content{
+    align-self: flex-start;
+    margin-top: 2em;
+}
+
+.home-section .home-content h1{
+    margin-bottom: 0.5em;
+    font-size: 5rem;
+    font-weight: 600;
+    color: #FEB545;
+}
+
+.home-section .home-content p{
+    color: black;
+    font-size: 1.3rem;
+}
+
+.home-section img{
+    width: 500px;
+}
+
+.about-section{
+    background-color: #FEB545;
+    padding: 3em;
+    margin-bottom: 1em;
+}
+
+.about-section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.about-section .container .box{
+    background-color: white;
+    width: 300px;
+    padding: 2em 3em;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.about-section .container .box h3{
+    margin-bottom: 1em;
+    color: #FEB545;
+}
+
+.achievements-section{
+    margin-top: 1em;
+    padding: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.achievements-section p{
+    color: #FEB545;
+    font-size: 2rem;
+}
+
+.achievements-section p span{
+    font-size: 5rem;
+}

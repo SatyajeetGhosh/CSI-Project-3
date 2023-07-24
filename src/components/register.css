@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, 'sans-serif';
+}
+
+.register{
+    padding: 3em;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register .register-container{
+    padding: 2em 3em;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.register .register-container h1{
+    color: #FEB545;
+    margin-bottom: 1em;
+    border-bottom: 2px solid #FEB545;
+}
+
+.register .register-container .register-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.register .register-container .register-form input{
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #FEB545;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.register .register-container .register-form input::placeholder{
+    color: white;
+}
+
+.register .register-container .register-form button{
+    outline: none;
+    color: #FEB545;
+    border: 2px solid #FEB545;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.register .register-container .register-form button:hover{
+    color: white;
+    background-color: #FEB545;
+}
+
+.after-register{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.after-register h1{
+    color: #FEB545;
+    margin-bottom: 1em;
+}
